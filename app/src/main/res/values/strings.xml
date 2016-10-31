@@ -7,4 +7,6 @@
     <string name="question_4">Question 4</string>
     <string name="question_5">Question 5</string>
     <string name="placeholder_question">This is just a placeholder question for now. do with it what you will.</string>
+    <string name="placeholder_answer">Placeholder</string>
+    <string name="submit_button">Submit Answers</string>
 </resources>
