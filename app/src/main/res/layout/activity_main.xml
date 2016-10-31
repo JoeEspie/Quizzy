@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="com.example.android.quizzy.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/quiz_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:textColor="#000000"
+                android:text="@string/quiz_name"
+                android:fontFamily="sans-serif"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/QuestionHeading"
+                android:text="@string/question_1"
+                />
+
+            <TextView
+                style="@style/QuestionContent"
+                android:text="@string/placeholder_question"
+                />
+
+            <TextView
+                style="@style/QuestionHeading"
+                android:text="@string/question_2"
+                />
+
+            <TextView
+                style="@style/QuestionContent"
+                android:text="@string/placeholder_question"
+                />
+
+            <TextView
+                style="@style/QuestionHeading"
+                android:text="@string/question_3"
+                />
+
+            <TextView
+                style="@style/QuestionContent"
+                android:text="@string/placeholder_question"
+                />
+
+            <TextView
+                style="@style/QuestionHeading"
+                android:text="@string/question_4"
+                />
+
+            <TextView
+                style="@style/QuestionContent"
+                android:text="@string/placeholder_question"
+                />
+
+            <TextView
+                style="@style/QuestionHeading"
+                android:text="@string/question_5"
+                />
+
+            <TextView
+                style="@style/QuestionContent"
+                android:text="@string/placeholder_question"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Answers"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
