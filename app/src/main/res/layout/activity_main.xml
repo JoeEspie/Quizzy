@@ -95,10 +95,9 @@
                 style="@style/QuestionContent"
                 android:text="@string/placeholder_question" />
 
-            <LinearLayout
+            <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
                 android:orientation="horizontal">
 
                 <RadioButton
@@ -115,7 +114,7 @@
                     android:layout_weight="1"
                     android:text="@string/placeholder_answer" />
 
-            </LinearLayout>
+            </RadioGroup>
 
             <TextView
                 style="@style/QuestionHeading"
@@ -140,10 +139,9 @@
                 style="@style/QuestionContent"
                 android:text="@string/placeholder_question" />
 
-            <LinearLayout
+            <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
                 android:orientation="horizontal">
 
                 <RadioButton
@@ -157,14 +155,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/placeholder_answer" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/radio_button_4_c"
@@ -178,8 +168,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/placeholder_answer" />
-
-            </LinearLayout>
+            </RadioGroup>
 
             <TextView
                 style="@style/QuestionHeading"
