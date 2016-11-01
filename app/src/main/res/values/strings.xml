@@ -9,4 +9,10 @@
     <string name="placeholder_question">This is just a placeholder question for now. do with it what you will.</string>
     <string name="placeholder_answer">Placeholder</string>
     <string name="submit_button">Submit Answers</string>
+    <string name="submitted_max"> You got them all correct! Congrats!</string>
+    <string name="submitted_great">Excellent score!</string>
+    <string name="submitted_good">You passed the quiz</string>
+    <string name="submitted_meh">Ouch, not quite good enough</string>
+    <string name="submitted_poor">Yikes, you need some work</string>
+    <string name="submitted_zero">You pressed the submit button!</string>
 </resources>

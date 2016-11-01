@@ -49,12 +49,15 @@
                 android:orientation="horizontal">
 
                 <CheckBox
+                    android:id="@+id/check_button_1_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/placeholder_answer" />
+                    android:text="@string/placeholder_answer"
+                    />
 
                 <CheckBox
+                    android:id="@+id/check_button_1_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -69,12 +72,14 @@
                 android:orientation="horizontal">
 
                 <CheckBox
+                    android:id="@+id/check_button_1_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/placeholder_answer" />
 
                 <CheckBox
+                    android:id="@+id/check_button_1_d"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -97,12 +102,14 @@
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/radio_button_1_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/placeholder_answer" />
 
                 <RadioButton
+                    android:id="@+id/radio_button_1_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -119,6 +126,7 @@
                 android:text="@string/placeholder_question" />
 
             <EditText
+                android:id="@+id/text_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="@string/placeholder_answer"
@@ -159,6 +167,7 @@
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/radio_button_4_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -185,7 +194,8 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/submit_button" />
+            android:text="@string/submit_button"
+            android:onClick="submitAnswers"/>
 
     </LinearLayout>
 </ScrollView>
