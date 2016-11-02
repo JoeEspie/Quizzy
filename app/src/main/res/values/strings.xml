@@ -1,18 +1,48 @@
 <resources>
     <string name="app_name">Quizzy</string>
-    <string name="quiz_name">Placeholder Quiz Name</string>
-    <string name="question_1">Question 1</string>
-    <string name="question_2">Question 2</string>
-    <string name="question_3">Question 3</string>
-    <string name="question_4">Question 4</string>
-    <string name="question_5">Question 5</string>
-    <string name="placeholder_question">This is just a placeholder question for now. do with it what you will.</string>
-    <string name="placeholder_answer">Placeholder</string>
-    <string name="submit_button">Submit Answers</string>
-    <string name="submitted_max"> You got them all correct! Congrats!</string>
-    <string name="submitted_great">Excellent score!</string>
-    <string name="submitted_good">You passed the quiz</string>
-    <string name="submitted_meh">Ouch, not quite good enough</string>
-    <string name="submitted_poor">Yikes, you need some work</string>
-    <string name="submitted_zero">You pressed the submit button!</string>
+    <string name="quiz_name">Detroit Tigers Trivia</string>
+    <string name="question_one_header">Question 1</string>
+    <string name="question_two_header">Question 2</string>
+    <string name="question_three_header">Question 3</string>
+    <string name="question_four_header">Question 4</string>
+    <string name="question_five_header">Question 5</string>
+
+    <string name="submit_button">Submit</string>
+    <string name="submitted_max">100% You got them all correct! Congrats!</string>
+    <string name="submitted_great">80% Excellent score!</string>
+    <string name="submitted_good">60% You passed the quiz</string>
+    <string name="submitted_meh">40% Ouch, not quite good enough</string>
+    <string name="submitted_poor">20% Yikes, you need some work</string>
+    <string name="submitted_zero">0% You pressed the submit button!</string>
+
+    <!-- Question One -->
+    <string name="question_one">Current Detroit Tiger Victor Martinex has played for two other MLB teams. Which teams are they?</string>
+    <string name="question_one_answer_a">Cleveland Indians</string>
+    <string name="question_one_answer_b">Los Angeles Dodgers</string>
+    <string name="question_one_answer_c">Boston Red Sox</string>
+    <string name="question_one_answer_d">Houston Astros</string>
+
+    <!-- Question Two -->
+    <string name="question_two">True or False: Ty Cobb played for the Detroit Tigers from 1905&#8211;1926</string>
+    <string name="question_two_answer_a">True</string>
+    <string name="question_two_answer_b">False</string>
+
+    <!-- Question Three -->
+    <string name="question_three">In what year was the last World Series win by the Tigers?</string>
+    <string name="question_three_answer">Enter year here</string>
+
+    <!-- Question Four -->
+    <string name="question_four">The Detroit Tigers began playing baseball in the American League in what year?</string>
+    <string name="question_four_answer_a">1913</string>
+    <string name="question_four_answer_b">1869</string>
+    <string name="question_four_answer_c">1919</string>
+    <string name="question_four_answer_d">1901</string>
+
+    <!-- Question Five -->
+    <string name="question_five">The Detroit franchise was the first American League team to go to three consecutive World Series from 1907-1909. How many times did they win the series in that stretch?</string>
+    <string name="question_five_answer_a">1</string>
+    <string name="question_five_answer_b">0</string>
+    <string name="question_five_answer_c">3</string>
+    <string name="question_five_answer_d">2</string>
+
 </resources>

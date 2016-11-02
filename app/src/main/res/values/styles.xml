@@ -9,16 +9,14 @@
     </style>
 
     <style name="QuestionHeading">
-        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginTop">12dp</item>
-        <item name="android:layout_marginLeft">8dp</item>
-        <item name="android:paddingLeft">8dp</item>
-        <item name="android:paddingRight">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:paddingLeft">16dp</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textColor">@color/colorAccent</item>
         <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:background">@color/colorAccent</item>
+        <item name="android:background">@color/colorPrimary</item>
     </style>
 
     <style name="QuestionContent">
@@ -29,8 +27,36 @@
         <item name="android:layout_marginRight">16dp</item>
         <item name="android:textColor">#000000</item>
         <item name="android:textSize">16sp</item>
-        <item name="android:fontFamily">sans-serif-light</item>
-        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_marginBottom">4dp</item>
     </style>
 
+    <style name="QuestionBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="CheckBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:buttonTint">@color/black</item>
+    </style>
+
+    <style name="RadioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:buttonTint">@color/black</item>
+    </style>
 </resources>

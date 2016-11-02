@@ -33,33 +33,33 @@ public class MainActivity extends AppCompatActivity {
             score += 1;
         if(checkQuestion2())
             score += 1;
-        if(checkQuestion3("Balls"))
+        if(checkQuestion3("1984"))
             score += 1;
         if(checkQuestion4())
             score += 1;
         if(checkQuestion5())
             score += 1;
 
-        displayScores(3);
+        displayScores(score);
     }
-
+    
     /*
      * Function for formatting the scores and displaying a message as a Toast
      */
     private void displayScores(int score) {
         float percent = (float) score / (float) MAX_SCORE;
         if(percent == 1)
-            Toast.makeText(this, (percent * 100) +"%! " + getString(R.string.submitted_max), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.submitted_max), Toast.LENGTH_SHORT).show();
         else if(percent < 1 && percent >= 0.8)
-            Toast.makeText(this, (percent * 100) +"%! " + getString(R.string.submitted_great), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.submitted_great), Toast.LENGTH_SHORT).show();
         else if(percent < 0.8 && percent >= 0.6)
-            Toast.makeText(this, (percent * 100) +"%! " + getString(R.string.submitted_good), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.submitted_good), Toast.LENGTH_SHORT).show();
         else if(percent < 0.6 && percent >= 0.4)
-            Toast.makeText(this, (percent * 100) +"%! " + getString(R.string.submitted_meh), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.submitted_meh), Toast.LENGTH_SHORT).show();
         else if(percent < 0.4 && percent >= 0.2)
-            Toast.makeText(this, (percent * 100) +"%! " + getString(R.string.submitted_poor), Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.submitted_poor), Toast.LENGTH_SHORT).show();
         else
-            Toast.makeText(this, getString(R.string.submitted_zero) + " " + percent, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.submitted_zero), Toast.LENGTH_SHORT).show();
 
     }
 
@@ -87,7 +87,6 @@ public class MainActivity extends AppCompatActivity {
     private boolean checkQuestion2() {
         boolean isCorrect = false;
         RadioButton buttonA = (RadioButton) findViewById(R.id.radio_button_1_a);
-        //RadioButton buttonB = (RadioButton) findViewById(R.id.radio_button_1_b);
 
         if(buttonA.isChecked())
             isCorrect = true;
@@ -117,9 +116,9 @@ public class MainActivity extends AppCompatActivity {
      */
     private boolean checkQuestion4() {
         boolean isCorrect = false;
-        RadioButton buttonC = (RadioButton) findViewById(R.id.radio_button_4_c);
+        RadioButton buttonD = (RadioButton) findViewById(R.id.radio_button_4_d);
 
-        if(buttonC.isChecked())
+        if(buttonD.isChecked())
             isCorrect = true;
 
         return isCorrect;
@@ -130,7 +129,12 @@ public class MainActivity extends AppCompatActivity {
      * @return true if correct answer
      */
     private boolean checkQuestion5() {
-        return true;
-    }
+        boolean isCorrect = false;
+        RadioButton buttonB = (RadioButton) findViewById(R.id.question_five_answer_b);
 
+        if (buttonB.isChecked())
+            isCorrect = true;
+
+        return isCorrect;
+    }
 }
